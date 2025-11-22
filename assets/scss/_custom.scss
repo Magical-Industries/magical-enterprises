@@ -1,0 +1,9 @@
+@import "github.com/StaticMania/roxo-hugo/assets/scss/variables";  // Import theme vars
+
+// Override accent colors
+$primary: #ff6b6b;           // Main accent (e.g., buttons, highlights)
+$primary-dark: #e55a5a;      // Darker variant for hovers
+$link-color: #ff6b6b;        // Link text color
+$link-hover-color: #e55a5a;  // Link hover color
+
+@media (prefers-color-scheme: dark) { a { color: #e55a5a; } }
