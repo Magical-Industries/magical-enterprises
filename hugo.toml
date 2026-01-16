@@ -4,6 +4,10 @@ title         = "Magical Enterprises"
 theme         = "roxo-hugo"
 summarylength = 25
 
+[Data]
+  counter = true
+  clients = { enable = false }
+
 # Site Menus
 [menu]
   # Navbar Menus
@@ -38,11 +42,11 @@ summarylength = 25
   dateFormat = "26 FEB 1994"
   # Meta data
   description = "Printed magic for everyday wizards."
-  # author = "StaticMania"
+  author = "Magical Enterprises"
   # Google Analitycs
   googleAnalitycsID = "Your ID"
   # We're using formspree.io for form handling, paste your formspree url below
-  fabform  = "https://fabform.io/v/nGJDAdnLjk3q"
+  # fabform  = "https://fabform.io/v/nGJDAdnLjk3q"
 
   # Contact Form
   [params.contactForm]
@@ -135,7 +139,7 @@ summarylength = 25
           url  = "https://www.tiktok.com/@magical.enterprises"
       # Footer Service
       [params.footer.service]
-        title       = "We help brands:"
-        description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
+        title       = "Our Magic:"
+        description = "Craft our products with a hint of magic so you can enjoy them"
       [params.footer.back_to_top]
         description = "I want to <br> visit again"

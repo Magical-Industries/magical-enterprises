@@ -7,7 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   
-  <meta name="generator" content="Hugo 0.152.2">
+  <meta name="author" content="Magical Enterprises">
+  
+  <meta name="generator" content="Hugo 0.153.0">
 
   <!-- Bootstrap -->
   
@@ -108,52 +110,25 @@
       <div class="col-lg-6 ml-auto">
         <div class="site-contact-form">
           <h4>Get in Touch</h4>
-          <form id="contact-form" action="https://fabform.io/v/nGJDAdnLjk3q" method="post">
-            <div class="row">
-              <div class="col-lg-6">
-                <input type="text" class="form-control" name="first-name" id="first-name" placeholder="First Name" required>
-              </div>
-              <div class="col-lg-6">
-                <input type="text" class="form-control" name="last-name" id="last-name" placeholder="Last Name" required>
-              </div>
-              <div class="col-lg-6">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
-              </div>
-              <div class="col-lg-6">
-                <div class="select-wrapper">
-                  <select class="form-control" id="projectType" name="project-type" required>
-                    <option value="" selected disabled hidden>Inquiry Type</option>
-                    
-                    <option value="pf">Product Feedback</option>
-                    
-                    <option value="gf">General Feedback</option>
-                    
-                  </select>
-                </div>
-              </div>
-              <div class="col-12">
-                <textarea class="form-control" id="aboutProject" name="about-project" rows="6" placeholder="Feedback"></textarea>
-              </div>
-              <div class="col-12">
-                <button formtarget="_blank" type="submit" class="btn btn-primary" id="contact-form-button">
-                  <span class="btn-area">
-                    <span data-text="Send Message">
-                      Send Message
-                    </span>
-                  </span>
-                </button>
-              </div>
-              <p id="contact-form-status"></p>
+          <form action="https://api.web3forms.com/submit" method="post" id="contact-form">
+            <input type="hidden" name="access_key" value="4506f206-de05-408e-adb4-45bc09d872ac">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Name" class="form-control" required>
             </div>
+            <div class="form-group">
+                <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea name="message" class="form-control" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
           </form>
-          <p class="contact-form-generator">
-          <a href="https://fabform.io/" target="_blank">form backend service</a>
-          </p>
         </div>
       </div>
     </div>
   </div>
 </section>
+
 
         </main><footer class="site-footer">
   <div class="container">
@@ -212,9 +187,9 @@
       
       <div class="col-lg-3 col-md-6">
         <div class="site-footer-widget">
-          <h5 class="site-footer-widget-title">We help brands:</h5>
+          <h5 class="site-footer-widget-title">Our Magic:</h5>
           <p class="site-footer-widget-description">
-            develop design solutions<br>produce valuable cultural content<br>create fresh brand experience
+            Craft our products with a hint of magic so you can enjoy them
           </p>
         </div>
       </div>
@@ -229,7 +204,7 @@
       </div>
       <div class="col-12">
         <div class="site-footer-copyright">
-          <p>© Copyright 2025 - All Rights Reserved by <a href="https://staticmania.com/" target="_blank">StaticMania</a> </p>
+          <p>© Copyright 2026 - All Rights Reserved by <a href="https://staticmania.com/" target="_blank">StaticMania</a> </p>
         </div>
       </div>
     </div>

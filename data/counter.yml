@@ -1,6 +1,6 @@
-enable : true
+enable : false
 heading : "THE PROOF IS IN THE PUDDING!"
-counter_item: 
+counter_item:
   - title: "Happy Clients"
     number: "250"
 

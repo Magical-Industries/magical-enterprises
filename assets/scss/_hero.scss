@@ -1,0 +1,16 @@
+.site-hero-content {
+  // Apply shadow only to headings and paragraphs (or other text)
+  h1, h2, p, .lead, .hero-title, .hero-subtitle {
+    text-shadow:
+      2px 2px 0 rgba(255, 255, 255, 1),
+      -2px -2px 0 rgba(255, 255, 255, 1),
+      2px -2px 0 rgba(255, 255, 255, 1),
+      -2px 2px 0 rgba(255, 255, 255, 1),
+      0 0 10px rgba(0, 0, 0, 0.8);
+  }
+
+  // Explicitly skip buttons — this is optional but safe
+  .btn {
+    text-shadow: none !important; // overrides any inherited shadow
+  }
+}

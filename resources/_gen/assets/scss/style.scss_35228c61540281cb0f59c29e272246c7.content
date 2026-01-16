@@ -144,6 +144,12 @@ select.form-control {
 textarea.form-control {
   height: auto; }
 
+.site-hero-content h1, .site-hero-content h2, .site-hero-content p, .site-hero-content .lead, .site-hero-content .hero-title, .site-hero-content .hero-subtitle {
+  text-shadow: 2px 2px 0 white, -2px -2px 0 white, 2px -2px 0 white, -2px 2px 0 white, 0 0 10px rgba(0, 0, 0, 0.8); }
+
+.site-hero-content .btn {
+  text-shadow: none !important; }
+
 .site-navigation {
   padding: 20px 0;
   background: #fff;

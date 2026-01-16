@@ -1,0 +1,40 @@
+{{ define "main" }}
+<section class="site-contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5">
+        <h1 class="site-contact-title">
+          {{ .Params.heading | safeHTML }}
+        </h1>
+      </div>
+      <div class="col-lg-6 ml-auto">
+        <div class="site-contact-form">
+          <h4>{{ .Params.form_heading }}</h4>
+          <form action="https://api.web3forms.com/submit" method="post" id="contact-form">
+            <input type="hidden" name="access_key" value="4506f206-de05-408e-adb4-45bc09d872ac">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Name" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea name="message" class="form-control" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--
+<form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="4506f206-de05-408e-adb4-45bc09d872ac">
+  <input type="text" name="name" required>
+  <input type="email" name="email" required>
+  <textarea name="message" required></textarea>
+  <button type="submit">Submit</button>
+</form>
+-->
+{{ end }}
